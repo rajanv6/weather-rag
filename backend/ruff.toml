@@ -1,0 +1,6 @@
+line-length = 120
+exclude = [".venv", ".cache"]
+
+[lint]
+# F: unused/undefined names, E/W: style, B: likely bugs, UP: modern syntax, SIM/C4: simplifications
+select = ["F", "E", "W", "B", "UP", "SIM", "C4"]
